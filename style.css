@@ -67,23 +67,28 @@
 /*DISPLAY HOME PAGE*/
 
 #home{
+    
     display: flex;
     flex-direction: column;
-    padding: 3px 200px;
-    height: 350px;
+    padding: 10px 100px;
+    height: 560px;
     justify-content: center;
     align-items: center;
     color: rgb(255, 255, 255);
 }
 
+#home .quote{
+    font-size: 1.2rem;
+}
+
 #home::before{
     content: "";
     position: absolute;
-    height: 60%;
-    width: 100%;
+    height : 100%;
+    width : 120%;
     z-index: -1;
     opacity: 0.;
-    background: url('shopie.jpg')
+    background: url('shopiei.jpg')
     
 }
 
@@ -160,9 +165,3 @@ section p {
     align-items: center;
 }
 
-#client .flipkart {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 300pxpx;
-}
