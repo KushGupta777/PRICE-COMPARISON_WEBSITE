@@ -34,7 +34,8 @@
 
 
 #navbar::before{
-    
+    top: 0px;
+    left: 0px;
     content: "";
     background-color: black;
     position: absolute;
@@ -90,7 +91,6 @@
     height: 100px;
     font-size: 3.5rem;
     padding: 20px;
-    font-family: "  https://fonts.google.com/share?selection.family=Protest+Strike";
 }
 
 #home h1{
@@ -133,6 +133,36 @@ section p {
     padding: 25px;  
 }
 
-#section-container h2{
-    font-family: "https://fonts.google.com/share?selection.family=Playwrite+DE+Grund:wght@100..400";
+    #section-container .box h2
+{
+    font-family: cursive;
+}
+
+#services h1{
+    font-size: 2.6rem;
+}
+
+#client-logo h1{
+    justify-content: center;
+    font-size: 3.5rem;
+    align-items:center;
+    display: flex;
+}
+
+#client img{
+    height : 50px;
+    padding : 12px;
+}
+
+#client{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#client .flipkart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300pxpx;
 }
