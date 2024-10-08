@@ -20,12 +20,14 @@
 
 
 #navbar{
-    position:relative;
+    position:absolute;
+    display: flex;
 }
 
 .logo img {
     height: 70px;
     margin: 3px 6px;
+
 }
 
 #navbar ul{
@@ -43,12 +45,13 @@
     width: 100%;
     z-index: -1;
     opacity: 0.;
+    display: flex;
 }
 
 #navbar ul li{
     list-style: none;
     font-size: 1.3rem;
-
+    display: flex;
 
 }
 
@@ -75,10 +78,16 @@
     justify-content: center;
     align-items: center;
     color: rgb(255, 255, 255);
+
 }
 
-#home .quote{
-    font-size: 1.2rem;
+ #quote{
+    font-size: 6.2;
+    color:rgb(88, 160, 194);
+    height: 50px;
+    width : 900px;
+    font-size: 2.0rem;
+    display : flex;
 }
 
 #home::before{
@@ -122,6 +131,7 @@ section p {
     height :33%;
     width :33%;
     display : flex;
+
 }
 
 #section-container .box  {
@@ -129,6 +139,7 @@ section p {
  margin: 3px 6px;
  border-radius : 23px;
  background-color: rgb(245, 229, 229);
+
 }
 
 #section-container .box img{
@@ -138,10 +149,19 @@ section p {
     padding: 25px;  
 }
 
-    #section-container .box h2
+#section-container .box h2
 {
     
     font-family: cursive;
+}
+
+#services .service-detail{
+    font-size: 3.0rem;
+    color: rgb(149, 230, 109);
+}
+
+#service table{
+    height : 30%;
 }
 
 #services h1{
@@ -156,7 +176,7 @@ section p {
 }
 
 #client img{
-    height : 50px;
+    height : 70px;
     padding : 12px;
 }
 
@@ -170,4 +190,66 @@ a{
     text-decoration: none;
 }
 
+#about::before{
+    content: "";
+    position: absolute;
+    height : 35%;
+    width : 100%;
+    z-index: -2;
+    background-image: url('about.jpg');
+    opacity: 7.4; 
+}
 
+#about h1 {
+    font-size: rem;
+}
+
+#about p{
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: antiquewhite;
+}
+
+#about .about-detail{
+    color:rgb(149, 230, 109);
+    font-size: 3.0rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#contact::before {
+    background-image: url('about.jpg');
+    height :700px;
+    width : 100px;
+    z-index: -2;
+    content: "";    
+}
+
+#contact h1{
+    font-size: 3.0rem;
+    color:rgb(149, 230, 109);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#contact p{
+    color : antiquewhite;
+}
+
+#electronics .electronic{
+    height:100px;
+    width: 100px;
+}
+
+#fashion .fashion{
+    height:100px;
+    width: 100px;
+}
+
+#kitchen .kitchen{
+    height:100px;
+    width: 100px;
+}
