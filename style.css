@@ -140,6 +140,7 @@ section p {
 
     #section-container .box h2
 {
+    
     font-family: cursive;
 }
 
@@ -164,4 +165,9 @@ section p {
     justify-content: center;
     align-items: center;
 }
+
+a{
+    text-decoration: none;
+}
+
 
