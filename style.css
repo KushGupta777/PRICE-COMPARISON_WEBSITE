@@ -107,10 +107,11 @@
     padding: 20px;
 }
 
-#home h1{
-    color: rgb(47, 247, 197);
-    font-family: Libre Baskerville;
-    display : flex;
+#home h6{
+    color: rgb(97, 212, 212);
+    font-family: Castellar;
+    display: flex;
+    font-size: 3.0rem;
 }
 
 .btn{
